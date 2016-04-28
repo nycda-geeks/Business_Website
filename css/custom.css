@@ -1,14 +1,30 @@
 
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 .photo {
-	height: px;
-	width: px;
-
-}
-
-.photo {
-	float: none;
-	margin: 0 auto 0;
+	margin: 0 auto;
 	border: #999999 solid 1px;
-	
+	margin-bottom: 40px;
 }
+
+.box {
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 960px;
+	margin:	0 auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.brand {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	color: #FFFFFF;
+	opacity: .9;
+}
+
+/*.lowerCase {
+	text-transform: lowercase;
+}*/
+
+
