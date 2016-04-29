@@ -1,10 +1,10 @@
 
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,300,500,600,700);
 
 .photo {
 	margin: 0 auto;
 	border: #999999 solid 1px;
-	margin-bottom: 40px;
+	margin-bottom: 45px;
 }
 
 .box {
@@ -17,10 +17,11 @@
 }
 
 .brand {
-	font-family: 'Poiret One', cursive;
-	font-size: 40px;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 45px;
 	color: #FFFFFF;
 	opacity: .9;
+	font-weight: 300;
 }
 
 /*.lowerCase {
