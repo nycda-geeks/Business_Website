@@ -163,6 +163,35 @@
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
-    </body>
+        <img id="mrbean" src="http://2.bp.blogspot.com/-C6KY8tsc8Fw/T-SVFnncxjI/AAAAAAAAANw/FMiNzA8Zecw/s640/mr.bean.jpg" width="50" height="50" />
 
-    </html>
+        <input type="button" value="Increase image size" />
+
+        <script type="text/javascript">
+
+
+// JavaScript
+$ (document).ready(function() {
+    console.log( "Document is loaded")
+    $(function() {
+        $(".img-responsive.img-border.img-full").hover(function() {
+
+            var h = $(this).height(function(){
+                $(this).animate({
+                    height: (h < 600 ? 600 : 250), 
+                    width : (h < 600 ? 816 : 220)
+                });
+            });
+        });
+    }).mouseout(function () {
+        $(".img-responsive.img-border.img-full").stop().animate({
+            width: 280,
+            height: 187
+    }, 200); //Smaller
+    });
+});
+
+</script>
+</body>
+
+</html>
