@@ -179,14 +179,14 @@ $ (document).ready(function() {
             var h = $(this).height(function(){
                 $(this).animate({
                     height: (h < 600 ? 600 : 250), 
-                    width : (h < 600 ? 816 : 220)
+                    width : (h < 600 ? 816 : 197)
                 });
             });
         });
     }).mouseout(function () {
         $(".img-responsive.img-border.img-full").stop().animate({
             width: 280,
-            height: 187
+            height: 180
     }, 200); //Smaller
     });
 });
